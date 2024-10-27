@@ -1,1 +1,2 @@
-## Data_analyst_course ##
+## 🆒 Data_analyst_course 🐱‍👤 ##
+Many new information for my... I start in summer 2024 a I should finish in February 2025.. If you know something about DataAnalyst work.. you dififnitely know what I should know :D.. Work with databases, librerias, a lot work with python.. tha´s taff 4 me sometimes.. actualy usualy very often. I hope I will pass this course.. because We are front of our finish work of On big Python blog. 
