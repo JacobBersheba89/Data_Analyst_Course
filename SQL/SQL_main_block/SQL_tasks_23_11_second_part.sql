@@ -236,3 +236,20 @@ FROM (
     SELECT first_name FROM sakila12_85.staff
 ) AS all_first_names
 GROUP BY first_name;
+
+
+
+
+-- úkol 
+
+SELECT 
+    s.store_id, 
+    s.total_sales
+FROM 
+    sakila.sales_by_store s
+WHERE 
+    s.total_sales > (
+        SELECT 
+            total_sales / 2
+        FROM 
+            sakila.sales_total)
