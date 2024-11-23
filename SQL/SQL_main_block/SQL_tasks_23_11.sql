@@ -68,7 +68,7 @@ FROM sakila12_85.customer
 WHERE email LIKE '%@sakilacu%';
 
 --zákazníky s jedinečnými hodnotami ve create_datesloupci. DOPLNIT
-SELECT DISTINCT create-date
+SELECT DISTINCT create_date --jedna z mála fcí, která se používá ještě před výběrem raws
 FROM sakila12_85.customer;
 
 --poslední úkol
