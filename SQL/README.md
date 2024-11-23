@@ -1,7 +1,10 @@
-🍕 ##Welcome in SQL block## ⛳
----I really highly recommend jump to 'SQL_main_block'.. We've started practicing SQL more then befor.. So I looking forward to new SQL training! 
+🍕 ## Welcome to the SQL Block ## ⛳
 
+---
 
+I really highly recommend jumping to the 'SQL_main_block'.. We've started practicing SQL more than before.. So, I’m looking forward to new SQL training!
+
+![SQL Programming Image](./SQL/SQL_pict.png)
 
 
 
