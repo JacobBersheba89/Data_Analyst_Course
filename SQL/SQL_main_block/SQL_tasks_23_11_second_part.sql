@@ -184,7 +184,7 @@ GROUP BY first_name;
 
 -- Dalsí rozšíření o rozdělení jmén. Ženská jména se podařilo rozdělit pomocí 16-ti parametrů
 
--- pomocí UNION jsem seskupil ze tří tabulek
+-- pomocí UNION jsem seskupil ze tří tabulek;
 -- takže tabulku se jmény jsem seřadil podle unikátních jmén;
 -- následně jsem pomocí COUNT(*) vytvořil nový sloupec a spočítal kolikrát se dané jméno objevuje v tabulkách
 -- posléze jsem pomocí AS přidal další sloupec a přidal CASE s podmínkou, kdy = pokud je dané jmené v tabulce pouze jednou vypíše pojem 'unikátní'
@@ -225,6 +225,7 @@ SELECT
         WHEN first_name LIKE '%elle' THEN 'ženské jméno'
         WHEN first_name LIKE '%ina' THEN 'ženské jméno'
         WHEN first_name LIKE '%thy' THEN 'ženské jméno'
+        WHEN first_name LIKE '%any' THEN 'ženské jméno'
         ELSE 'neznámé jméno'
     END AS typ_jmena
     
