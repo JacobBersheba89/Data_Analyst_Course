@@ -226,6 +226,7 @@ SELECT
         WHEN first_name LIKE '%ina' THEN 'ženské jméno'
         WHEN first_name LIKE '%thy' THEN 'ženské jméno'
         WHEN first_name LIKE '%any' THEN 'ženské jméno'
+        WHEN first_name LIKE '%aly' THEN 'ženské jméno'
         ELSE 'neznámé jméno'
     END AS typ_jmena
     
