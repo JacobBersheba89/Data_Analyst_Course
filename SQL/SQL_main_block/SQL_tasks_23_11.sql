@@ -71,7 +71,7 @@ WHERE email LIKE '%@sakilacu%';
 SELECT DISTINCT create_date --jedna z mála fcí, která se používá ještě před výběrem raws
 FROM sakila12_85.customer;
 
---poslední úkol
+--poslední úkol 
 
 --zobrazit herce, kteří hráli ve více než 25 filmech,
 SELECT *
