@@ -69,3 +69,30 @@ FROM cte;
 
 
 
+delimiter $$
+drop procedure if exists film_rental $$
+create procedure film_rental(in in_film_id int)
+begin
+start transaction;
+update trigger_exercise12_85.stock_part_1
+set stock = stock - 1
+where film_id = in_film_id and stock > 0;
+if row_count() > 0 then
+select 1 as result;
+commit;
+else
+select 0 as result;
+rollback;
+end if;
+end $$
+delimiter ;
+
+
+set @stock_available = (
+    select cast(greatest(stock -1, 0) as unsigned)
+    set stock = stock - 1
+    where film_id = p_film_id
+);  
+
+
+
