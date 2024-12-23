@@ -120,7 +120,7 @@ UNION ALL
     RATING, 
     NULL, 
     sum(payments) as payments
-    FROM sakila.film_analytics
+    FROM sakila12_85.film_analytics
     GROUP by rating
 UNION ALL
     SELECT 
@@ -172,7 +172,7 @@ SELECT
     customer_id,
     amount,
     SUM(amount) OVER (PARTITION BY customer_id) as total_amount
-FROM sakila.payment
+FROM sakila12_85.payment
 
 window_function OVER (PARTITION BY column_name_1 ORDER BY column_name_2)
 
