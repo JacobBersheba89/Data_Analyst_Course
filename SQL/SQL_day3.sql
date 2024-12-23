@@ -17,7 +17,7 @@ GROUP BY col_name1, ..., col_name_n
 SELECT 
     actor_id,
     count(film_id) AS played_in
-FROM sakila.film_actor
+FROM sakila12_85.film_actor
 GROUP BY actor_id
 ORDER BY played_in DESC
 
@@ -26,9 +26,9 @@ SELECT
     a.last_name as actor_last_name,
     count(film_id) AS played_in
 FROM
-        sakila.film_actor as fa
+        sakila12_85.film_actor as fa
     INNER JOIN
-        sakila.actor as a USING (actor_id)
+        sakila12_85.actor as a USING (actor_id)
 GROUP BY actor_id
 ORDER BY played_in DESC
 
