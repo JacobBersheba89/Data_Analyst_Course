@@ -52,7 +52,7 @@ INSERT INTO classes (name, main_teacher_id) VALUES
 
 CREATE TABLE IF NOT EXISTS students (
   student_id serial,
-  name varchar(100) NOT NULL,
+  name varchar(100) NOT NULL, 
   surname varchar(100) NOT NULL,
   email varchar(150) NOT NULL,
   class_id serial,
@@ -86,7 +86,7 @@ INSERT INTO students (name, surname, email, class_id) VALUES
 ('Bruno', 'Yantree', 'bruno.yantree@gmail.com', 5),
 ('Claude', 'Kalish', 'claude.kalish@gmail.com', 5);
 
-
+;
 --
 -- Table structure for table 'marks'
 --
