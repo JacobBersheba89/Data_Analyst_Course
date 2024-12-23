@@ -62,7 +62,7 @@ FROM sakila.actor_analytics
 SELECT 
     amount,
     IF(amount > 5, 'Big payment', 'Low payment') AS payment_type
-FROM sakila.payment
+FROM sakila12_85.payment
 General syntax of the clause:
 
 IF(condition, value_if_true, value_if_false) 
