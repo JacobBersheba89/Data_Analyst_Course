@@ -18,7 +18,7 @@ from sakila12_85.actor_analytics
 SELECT
     first_name,
     last_name,
-case 
+case
     when payments_total < 90 then 'L---ow payment'
     when payments_total between 90 and 100 then 'A---vg payment'
     when payments_total > 100 then 'G---reat payment'
