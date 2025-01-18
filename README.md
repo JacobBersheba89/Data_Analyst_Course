@@ -4,3 +4,6 @@ I hope I will pass this course.. because We are front of our finish work of on b
 
 ## 📂 My fileworks 📂 ##
 You can chack any document from offered jupiter files... It´s just some of my finish work.. 
+
+## 📉 Visualization 📊 ##
+The latest updates are related to visualization... several new libraries and ways to visualize data. It's a big challenge. Python basically allows anything!!! I would like to learn and understand it in the future. 
