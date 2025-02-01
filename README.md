@@ -1,7 +1,7 @@
 ## 🆒 Data_analyst_course 🐱‍👤 ##
-Many new information... I started in summer 2024 a I should finish in February 2025.. If you know something about DataAnalyst work.. you dififnitely know what I should know :D.. Work with databases, librerias, a lot work with python.. that´s taff 4 me sometimes.. actualy usualy very often.  We did some SQL work.. Work with JSON.. and now we do data scraping.. this is for me total spanish village, I mean ..I don´t understand.  
-I hope I will pass this course.. because We are front of our finish work of on big Python blog. 
-Last lecture is about Tableau & visualization
+So, I've been diving into tons of new info since I kicked off this Data Analyst course in the summer of 2024. I'm aiming to wrap it up by February 2025. If you're familiar with data analysis gigs, you probably get the drill of what I need to master, right? 😄 It's all about digging deep into data in Excel, mastering Python for data acquisition, cleansing, and processing—not to mention the automation of data handling and report generation. I've tackled SQL databases, creating complex queries and transforming data effectively.
+
+We've also dived into web scraping recently, which initially felt like deciphering hieroglyphics—I just didn't get it. But guess what? I've managed to get through all these challenges, and now, I'm gearing up for the final project. It's been tough at times, but my motivation to continue in data analysis is sky-high. We're about to tackle our final project, which is a big deal: a massive Python blog. The last lecture will cover Tableau and advanced data visualization techniques. I'm really looking forward to applying storytelling in data through dynamic dashboards and presenting my analysis results in the most impactful way.
 
 ## 📉 Visualization 📊 ##
 The latest updates are related to visualization... several new libraries and ways to visualize data. It's a big challenge. Python basically allows anything!!! I would like to learn and understand it in the future. 
