@@ -8,7 +8,7 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 ### 1️⃣ Vizualizace 10 nejlidnatějších zemí
 - **Seaborn** – stylování a vizualizace
 - **Matplotlib** – tvorba grafů
-<br>
+
 - **Kontroluje, zda dataset obsahuje sloupec `population`**.
 - **Skupinuje data podle zemí a získává maximální hodnotu populace**.
 - **Seřazuje země podle populace a vybírá TOP 10**.
