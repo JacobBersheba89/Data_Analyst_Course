@@ -1,12 +1,44 @@
-## 🆒 Data_analyst_course 🐱‍👤 ##
-So, I've been diving into tons of new info since I kicked off this Data Analyst course in the summer of 2024. I'm aiming to wrap it up by February 2025. If you're familiar with data analysis gigs, you probably get the drill of what I need to master, right? 😄 It's all about digging deep into data in Excel, mastering Python for data acquisition, cleansing, and processing—not to mention the automation of data handling and report generation. I've tackled SQL databases, creating complex queries and transforming data effectively.
+# 🌍 COVID-19 Data Dashboard
 
-We've also dived into web scraping recently, which initially felt like deciphering hieroglyphics—I just didn't get it. But guess what? I've managed to get through all these challenges, and now, I'm gearing up for the final project. It's been tough at times, but my motivation to continue in data analysis is sky-high. We're about to tackle our final project, which is a big deal: a massive Python blog. The last lecture will cover Tableau and advanced data visualization techniques. I'm really looking forward to applying storytelling in data through dynamic dashboards and presenting my analysis results in the most impactful way.
+Tento projekt obsahuje několik interaktivních **dashboardů** vytvořených pomocí **Plotly** a **Dash**.  
+Dashboardy umožňují analýzu dat COVID-19 a vizualizaci metrik pro různé země a kontinenty.  
 
-## 📉 Visualization 📊 ##
-The latest updates are related to visualization... several new libraries and ways to visualize data. It's a big challenge. Python basically allows anything!!! I would like to learn and understand it in the future. 
+---
 
-## 📂 My fileworks 📂 ##
-You can chack any document from offered jupiter files... It´s just some of my finish work.. 
+## 📌 Obsah projektu
+### 1️⃣ **Line Charts** – Vývoj kumulativních případů a úmrtí  
+- 📊 **Interaktivní grafy** zobrazující **vývoj COVID-19** v čase.  
+- ✅ **Možnost zoomování a filtrování dat**.  
+- 🔥 Přidané **milníky** (100M, 200M atd.) do grafu celkových případů.  
 
+### 2️⃣ **Mapa světa s COVID-19 daty**  
+- 🌍 **Mapbox vizualizace** zobrazující případy podle zemí.  
+- 🎨 **Barevně rozlišené kontinenty** + **velikost markerů** odpovídá poměru případů k populaci.  
+- 🕵️‍♂️ **Při najetí myší zobrazí detaily** o zemi a metrikách.  
 
+### 3️⃣ **Dashboard s výběrem kontinentu a metriky**  
+- 🗺️ **Interaktivní mapa**, kde si uživatel vybírá **kontinent a metriku (např. total cases, total deaths, total vaccinations atd.)**.  
+- 🔧 **Možnost filtrování dat podle posledního dne v datasetu**.  
+- 🖤 **Tmavý Mapbox styl** pro lepší kontrast vizualizací.  
+
+### 4️⃣ **Výběr TOP X zemí podle metriky**  
+- 📊 **Možnost výběru TOP 5, 10, 15, 20 zemí podle zvolené metriky**.  
+- 🚫 **Vynechání Číny a Indie**, protože jejich čísla mohou ovlivnit celkovou analýzu.  
+
+---
+
+## 🛠️ **Technologie**
+- **Python** 🐍  
+- **Dash** 🚀  
+- **Plotly** 📊  
+- **Pandas** 🏛️  
+- **Seaborn & Matplotlib** 🎨  
+- **Mapbox API** 🗺️  
+
+---
+
+## 🚀 **Jak spustit projekt**
+### **🔹 Spuštění v Jupyter Notebooku**
+1️⃣ Ujisti se, že máš nainstalované knihovny:  
+   ```sh
+   pip install dash plotly pandas
