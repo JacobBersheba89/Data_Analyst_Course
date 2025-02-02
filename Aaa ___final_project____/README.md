@@ -14,37 +14,41 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 - **Seřazuje země podle populace a vybírá TOP 10**.
 - **Vykresluje sloupcový graf (`barplot`) pomocí Seaborn**.
 - **Používá `whitegrid` styl pro lepší čitelnost grafu**.
----------------------
+  
+---
   
 
-### 2️⃣ **Mapa světa s COVID-19 daty**  
-- 🌍 **Mapbox vizualizace** zobrazující případy podle zemí.  
-- 🎨 **Barevně rozlišené kontinenty** + **velikost markerů** odpovídá poměru případů k populaci.  
-- 🕵️‍♂️ **Při najetí myší zobrazí detaily** o zemi a metrikách.  
+### 2️⃣ Vizualizace vztahu mezi populací a očekávanou délkou života
+- ***Plotly Express*** – interaktivní vizualizace 📊  
+- ***Pandas*** – manipulace s daty 🏛️  
 
-### 3️⃣ **Dashboard s výběrem kontinentu a metriky**  
-- 🗺️ **Interaktivní mapa**, kde si uživatel vybírá **kontinent a metriku (např. total cases, total deaths, total vaccinations atd.)**.  
-- 🔧 **Možnost filtrování dat podle posledního dne v datasetu**.  
-- 🖤 **Tmavý Mapbox styl** pro lepší kontrast vizualizací.  
+- **Kontroluje, zda dataset obsahuje sloupce `population` a `life_expectancy`**.  
+- **Řadí data sestupně podle populace a odstraňuje duplikáty zemí (`drop_duplicates`)**.  
+- **Vytváří Scatter Plot (`px.scatter`) s barvami podle jednotlivých zemí**.  
+- **Zobrazuje hover efekt s názvem země (`hover_name="location"`)**.  
+- **Přidává dynamický titulek grafu:**  
+  - 🏷️ `"The relationship between population size and life expectancy"`  
+- **Používá `size_max=20` pro lepší čitelnost bodů**.  
+- **Přidává podnadpis (`subtitle`), který vysvětluje výsledky vizualizace:**  
+  - 💡 "The question was whether people in countries with a larger population live longer..."  
 
-### 4️⃣ **Výběr TOP X zemí podle metriky**  
-- 📊 **Možnost výběru TOP 5, 10, 15, 20 zemí podle zvolené metriky**.  
-- 🚫 **Vynechání Číny a Indie**, protože jejich čísla mohou ovlivnit celkovou analýzu.  
-
----
-
-## 🛠️ **Technologie**
-- **Python** 🐍  
-- **Dash** 🚀  
-- **Plotly** 📊  
-- **Pandas** 🏛️  
-- **Seaborn & Matplotlib** 🎨  
-- **Mapbox API** 🗺️  
+📌 **Výsledek:**  
+✅ Interaktivní graf, který ukazuje, že **větší populace často znamená nižší očekávanou délku života**.  
 
 ---
 
-## 🚀 **Jak spustit projekt**
-### **🔹 Spuštění v Jupyter Notebooku**
-1️⃣ Ujisti se, že máš nainstalované knihovny:  
-   ```sh
-   pip install dash plotly pandas
+### 3️⃣ Vývoj nových případů COVID-19 ve vybraných zemích  
+- ***Plotly Express*** – interaktivní vizualizace 📊  
+- ***Pandas*** – manipulace s daty 🏛️  
+
+- **Načítá dataset a filtruje pouze vybrané země (`Germany`, `Belgium`, `Czechia`)**.  
+- **Používá `.isin(countries)`, aby zahrnul pouze vybrané země**.  
+- **Vytváří kopii datasetu (`df.copy()`), aby předešel SettingWithCopyWarning**.  
+- **Konvertuje sloupec `date` na datetime pro správné zobrazení časových údajů**.  
+- **Vykresluje line chart (`px.line`) pro vývoj nových případů (`new_cases`)**.  
+- **Barevně rozlišuje země (`color="location"`) pro přehlednost**.  
+- **Používá vlastní barevnou paletu (`px.colors.qualitative.Set2`) pro lepší vizuální dojem**.  
+
+📌 **Výsledek:**  
+✅ Interaktivní graf ukazující **vývoj nových případů COVID-19** v Německu 🇩🇪, Belgii 🇧🇪 a Česku 🇨🇿.  
+
