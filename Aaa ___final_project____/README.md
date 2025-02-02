@@ -110,7 +110,8 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 - **Styluje layout a dropdown pro přehlednější uživatelské rozhraní**.  
 
 📌 **Výsledek:**  
-✅ **Interaktivní dashboard**, kde si uživatel může vybrat **počet zemí** a analyzovat **celkovou vakcinaci a její podíl na populaci**.  
+✅ **Interaktivní dashboard**, kde si uživatel může vybrat **počet zemí** a analyzovat **celkovou vakcinaci a její podíl na populaci**. 
+
 ![Vizualizace vakcinace](https://github.com/JacobBersheba89/Data_Analyst_Course/raw/main/Aaa%20___final_project____/6.PNG)
 
 
