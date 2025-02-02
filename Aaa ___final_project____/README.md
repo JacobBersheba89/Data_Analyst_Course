@@ -73,3 +73,24 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 ✅ Interaktivní **mapa**, která ukazuje **COVID-19 data** podle jednotlivých zemí.  
 
 ---
+
+### 5️⃣ Interaktivní mapa COVID-19 dle kontinentu a metriky  
+- ***Dash*** – webová aplikace 📊  
+- ***Plotly Express*** – vizualizace mapy 🌍  
+- ***Pandas*** – manipulace s daty 🏛️  
+
+- **Načítá dataset a filtruje pouze data z posledního dne (`df['date'].max()`)**.  
+- **Používá Mapbox API pro vykreslení interaktivní mapy (`px.scatter_mapbox`)**.  
+- **Umožňuje výběr kontinentu (`dcc.Dropdown`), aby uživatel mohl filtrovat zobrazená data**.  
+- **Umožňuje výběr metriky (`total_cases`, `total_deaths`, `total_tests`, `total_vaccinations`, `people_fully_vaccinated`)**.  
+- **Vykresluje mapu, kde:**  
+  - 🎨 **Barva odpovídá zemi (`color="location"`)**.  
+  - 🔵 **Velikost bodů odpovídá hodnotě vybrané metriky (`size=metric`)**.  
+  - 🖱️ **Při najetí myší zobrazí detaily země a hodnotu metriky**.  
+- **Používá tmavý styl mapy (`mapbox_style="dark"`) pro lepší vizuální dojem**.  
+- **Styluje layout a dropdowny pro přehlednější uživatelské rozhraní**.  
+
+📌 **Výsledek:**  
+✅ **Interaktivní dashboard**, kde si uživatel může vybrat **kontinent a sledovanou metriku** a zobrazit ji na **mapě světa**.  
+
+---
