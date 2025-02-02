@@ -14,7 +14,7 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 - **Seřazuje země podle populace a vybírá TOP 10**.
 - **Vykresluje sloupcový graf (`barplot`) pomocí Seaborn**.
 - **Používá `whitegrid` styl pro lepší čitelnost grafu**.
-  
+![Vizualizace](https://github.com/JacobBersheba89/Data_Analyst_Course/raw/main/Aaa%20___final_project____/0.PNG)
 ---
   
 
@@ -34,7 +34,7 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 
 📌 **Výsledek:**  
 ✅ Interaktivní graf, který ukazuje, že **větší populace často znamená nižší očekávanou délku života**.  
-
+![Vizualizace](https://github.com/JacobBersheba89/Data_Analyst_Course/raw/main/Aaa%20___final_project____/1.PNG)
 ---
 
 ### 3️⃣ Vývoj nových případů COVID-19 ve vybraných zemích  
@@ -51,7 +51,7 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 
 📌 **Výsledek:**  
 ✅ Interaktivní graf ukazující **vývoj nových případů COVID-19** v Německu 🇩🇪, Belgii 🇧🇪 a Česku 🇨🇿.  
-
+![Vizualizace](https://github.com/JacobBersheba89/Data_Analyst_Course/raw/main/Aaa%20___final_project____/2.PNG)
 ---
 
 ### 4️⃣ Mapa celkového počtu COVID-19 případů podle zemí  
@@ -71,7 +71,7 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 
 📌 **Výsledek:**  
 ✅ Interaktivní **mapa**, která ukazuje **COVID-19 data** podle jednotlivých zemí.  
-
+![Vizualizace](https://github.com/JacobBersheba89/Data_Analyst_Course/raw/main/Aaa%20___final_project____/5.PNG)
 ---
 
 ### 5️⃣ Interaktivní mapa COVID-19 dle kontinentu a metriky  
@@ -93,6 +93,7 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 📌 **Výsledek:**  
 ✅ **Interaktivní dashboard**, kde si uživatel může vybrat **kontinent a sledovanou metriku** a zobrazit ji na **mapě světa**.  
 
+![Vizualizace](https://github.com/JacobBersheba89/Data_Analyst_Course/raw/main/Aaa%20___final_project____/4.PNG)
 ---
 
 ### 6️⃣ Analýza vakcinace COVID-19 podle počtu zemí  
@@ -112,7 +113,7 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 📌 **Výsledek:**  
 ✅ **Interaktivní dashboard**, kde si uživatel může vybrat **počet zemí** a analyzovat **celkovou vakcinaci a její podíl na populaci**. 
 
-![Vizualizace vakcinace](https://github.com/JacobBersheba89/Data_Analyst_Course/raw/main/Aaa%20___final_project____/6.PNG)
+![Vizualizace](https://github.com/JacobBersheba89/Data_Analyst_Course/raw/main/Aaa%20___final_project____/6.PNG)
 
 
 
