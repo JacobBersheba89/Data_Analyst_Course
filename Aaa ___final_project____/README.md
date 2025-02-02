@@ -1,13 +1,13 @@
 # 🌍 pracovali jsme s COVIDOVÝM DatasetEM
 
 Tento projekt obsahoval několik analýz a také interaktivních **dashboardů** vytvořených pomocí **Plotly** a **Dash** knihoven.  
-Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kontinenty.  
+Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kontinenty.  Níže jsou jednotlivé části finlního projektu...
 
 ---
 
 ### 1️⃣ Vizualizace 10 nejlidnatějších zemí
-- **Seaborn** – stylování a vizualizace
-- **Matplotlib** – tvorba grafů
+- ***Seaborn*** – stylování a vizualizace
+- ***Matplotlib*** – tvorba grafů
 
 - **Kontroluje, zda dataset obsahuje sloupec `population`**.
 - **Skupinuje data podle zemí a získává maximální hodnotu populace**.
