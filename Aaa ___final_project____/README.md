@@ -5,7 +5,7 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 
 ---
 
-### 1️⃣ # 📊 Vizualizace 10 nejlidnatějších zemí
+### 1️⃣ Vizualizace 10 nejlidnatějších zemí
 - **Seaborn** – stylování a vizualizace
 - **Matplotlib** – tvorba grafů
 ## 📌 **Co tento kód dělá?**
