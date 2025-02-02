@@ -94,3 +94,22 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 ✅ **Interaktivní dashboard**, kde si uživatel může vybrat **kontinent a sledovanou metriku** a zobrazit ji na **mapě světa**.  
 
 ---
+
+### 6️⃣ Analýza vakcinace COVID-19 podle počtu zemí  
+- ***Dash*** – webová aplikace 📊  
+- ***Plotly Express*** – interaktivní vizualizace 📈  
+- ***Pandas*** – manipulace s daty 🏛️  
+
+- **Načítá dataset a filtruje pouze data z posledního dne (`df['date'].max()`)**.  
+- **Umožňuje výběr počtu zemí (`5, 10, 15, 20`) pomocí `dcc.Dropdown`**.  
+- **Vynechává Čínu a Indii, pokud je vybráno více než 5 zemí**, aby analýza nebyla zkreslená.  
+- **Vykresluje dva bar charty (`px.bar`) s celkovým počtem očkování a poměrem očkování k populaci**:  
+  - **Graf 1:** **Nejvíce očkované země podle absolutních čísel (`total_vaccinations`)** 🏥.  
+  - **Graf 2:** **Nejvíce očkované země podle podílu na populaci (`vaccination_ratio`)** 📊.  
+- **Používá různé barevné palety** (`Blues` pro total a `Oranges` pro ratio) pro lepší vizuální přehlednost.  
+- **Styluje layout a dropdown pro přehlednější uživatelské rozhraní**.  
+
+📌 **Výsledek:**  
+✅ **Interaktivní dashboard**, kde si uživatel může vybrat **počet zemí** a analyzovat **celkovou vakcinaci a její podíl na populaci**.  
+
+---
