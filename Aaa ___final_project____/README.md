@@ -1,15 +1,20 @@
-# 🌍 COVID-19 Data Dashboard
+# 🌍 pracovali jsme s COVIDOVÝM DatasetEM
 
-Tento projekt obsahuje několik interaktivních **dashboardů** vytvořených pomocí **Plotly** a **Dash**.  
-Dashboardy umožňují analýzu dat COVID-19 a vizualizaci metrik pro různé země a kontinenty.  
+Tento projekt obsahoval několik analýz a také interaktivních **dashboardů** vytvořených pomocí **Plotly** a **Dash** knihoven.  
+Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kontinenty.  
 
 ---
 
-## 📌 Obsah projektu
-### 1️⃣ **Line Charts** – Vývoj kumulativních případů a úmrtí  
-- 📊 **Interaktivní grafy** zobrazující **vývoj COVID-19** v čase.  
-- ✅ **Možnost zoomování a filtrování dat**.  
-- 🔥 Přidané **milníky** (100M, 200M atd.) do grafu celkových případů.  
+### 1️⃣ # 📊 Vizualizace 10 nejlidnatějších zemí
+- **Seaborn** – stylování a vizualizace
+- **Matplotlib** – tvorba grafů
+## 📌 **Co tento kód dělá?**
+- ✅ **Kontroluje, zda dataset obsahuje sloupec `population`**.
+- ✅ **Skupinuje data podle zemí a získává maximální hodnotu populace**.
+- ✅ **Seřazuje země podle populace a vybírá TOP 10**.
+- ✅ **Vykresluje sloupcový graf (`barplot`) pomocí Seaborn**.
+- ✅ **Používá `whitegrid` styl pro lepší čitelnost grafu**.
+  
 
 ### 2️⃣ **Mapa světa s COVID-19 daty**  
 - 🌍 **Mapbox vizualizace** zobrazující případy podle zemí.  
