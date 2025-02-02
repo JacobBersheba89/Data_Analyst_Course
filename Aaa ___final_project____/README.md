@@ -111,5 +111,7 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 
 📌 **Výsledek:**  
 ✅ **Interaktivní dashboard**, kde si uživatel může vybrat **počet zemí** a analyzovat **celkovou vakcinaci a její podíl na populaci**.  
+![podle počtu zemí](https://raw.githubusercontent.com/TvujGitHubUser/TvujRepo/main/images/chart.png)
+
 
 ---
