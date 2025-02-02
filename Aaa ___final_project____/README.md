@@ -14,7 +14,7 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 - **Seřazuje země podle populace a vybírá TOP 10**.
 - **Vykresluje sloupcový graf (`barplot`) pomocí Seaborn**.
 - **Používá `whitegrid` styl pro lepší čitelnost grafu**.
-- ---------------------
+---------------------
   
 
 ### 2️⃣ **Mapa světa s COVID-19 daty**  
