@@ -52,3 +52,24 @@ Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kon
 📌 **Výsledek:**  
 ✅ Interaktivní graf ukazující **vývoj nových případů COVID-19** v Německu 🇩🇪, Belgii 🇧🇪 a Česku 🇨🇿.  
 
+---
+
+### 4️⃣ Mapa celkového počtu COVID-19 případů podle zemí  
+- ***Plotly Express*** – interaktivní vizualizace na mapě 🌍  
+- ***Pandas*** – manipulace s daty 🏛️  
+
+- **Kontroluje, zda dataset obsahuje potřebné sloupce (`location`, `continent`, `total_cases`, `population`, `latitude`, `longitude`)**.  
+- **Agreguje data (`groupby`) podle zemí a kontinentů** a získává maximální hodnoty případů a populace.  
+- **Vypočítává nový sloupec `cases_per_population` (počet případů vzhledem k populaci)**.  
+- **Odstraňuje `NaN` hodnoty (`dropna`), aby předešel chybám při vizualizaci**.  
+- **Vykresluje Mapbox Scatter Plot (`px.scatter_mapbox`)**, kde:  
+  - 🎨 **Barva odpovídá kontinentu (`color="continent"`)**.  
+  - 🔵 **Velikost bodů závisí na poměru `cases_per_population`**.  
+  - 🖱️ **Při najetí myší zobrazí `total_cases` a `cases_per_population` ve formátu `%`**.  
+- **Používá tmavý styl mapy (`mapbox_style="carto-darkmatter"`) pro lepší čitelnost**.  
+- **Nastavuje velikost grafu (`width=1300`, `height=600`) pro lepší přehlednost**.  
+
+📌 **Výsledek:**  
+✅ Interaktivní **mapa**, která ukazuje **COVID-19 data** podle jednotlivých zemí.  
+
+---
