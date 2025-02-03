@@ -1,4 +1,4 @@
-# 🌍 FINÁLNÍ PROJEKT - práce s covidovým datasetem
+# 🌍 FINÁLNÍ PROJEKT - práce s covidovým datasetem #
 
 Tento projekt obsahoval několik analýz a také interaktivních **dashboardů** vytvořených pomocí **Plotly** a **Dash** knihoven.  
 Dashboardy umožňují analýzu dat a vizualizaci metrik pro různé země a kontinenty.  Níže jsou jednotlivé části finlního projektu...
