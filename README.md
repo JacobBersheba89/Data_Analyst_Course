@@ -9,4 +9,4 @@ The latest updates are related to visualization... several new libraries and way
 ## 📂 My fileworks 📂 ##
 You can chack any document from offered jupiter files... It´s just some of my finish work.. 
 
-
+- Sometimes I feel.. that the worst thing about all these courses is that they don't really help you much. Yes, they start the change, but then you have to work hard yourself.. really hard. Without daily drill, the experience from the course goes to shit...
